@@ -1,0 +1,12 @@
+{
+    "type": "MultiPolygon",
+    "coordinates": [
+        
+    ],
+    "attribute": [
+                  {"name": "Analyze","sex": "XXX","adddress": "elbert/mine"}
+                  ],
+    "cofig":{
+        "veision":"1.0.0","help":"www.baidu.com"
+    }
+}

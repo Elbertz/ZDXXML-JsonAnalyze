@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <List>
+        <Item name="app_id" value="com_wondertek" />
+        <Item name="app_name" value="banboo" />
+        <Item name="app_version" value="3.9.0" />
+        <Item name="app_versionCode" value="390" />
+    </List>
+    <List>
+        <Item name="sdk_version" value="2.12.00" />
+        <Item name="app_language" value="OC" />
+        <Item name="company_url" value="http://www.wondertek.com.cn" />
+    </List>
+</Root>

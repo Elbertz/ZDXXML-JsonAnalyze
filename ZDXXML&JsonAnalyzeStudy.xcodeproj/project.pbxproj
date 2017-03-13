@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547D7DF01E700B7E003D3111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7DEF1E700B7E003D3111 /* main.m */; };
+		547D7DF31E700B7E003D3111 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7DF21E700B7E003D3111 /* AppDelegate.m */; };
+		547D7DF61E700B7E003D3111 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7DF51E700B7E003D3111 /* ViewController.m */; };
+		547D7DF91E700B7E003D3111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547D7DF71E700B7E003D3111 /* Main.storyboard */; };
+		547D7DFB1E700B7E003D3111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547D7DFA1E700B7E003D3111 /* Assets.xcassets */; };
+		547D7DFE1E700B7F003D3111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547D7DFC1E700B7F003D3111 /* LaunchScreen.storyboard */; };
+		547D7E091E700B7F003D3111 /* ZDXXML_JsonAnalyzeStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E081E700B7F003D3111 /* ZDXXML_JsonAnalyzeStudyTests.m */; };
+		547D7E141E700B7F003D3111 /* ZDXXML_JsonAnalyzeStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E131E700B7F003D3111 /* ZDXXML_JsonAnalyzeStudyUITests.m */; };
+		547D7E261E700BE9003D3111 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 547D7E211E700BE9003D3111 /* config.xml */; };
+		547D7E271E700BE9003D3111 /* config2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 547D7E221E700BE9003D3111 /* config2.xml */; };
+		547D7E281E700BE9003D3111 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E251E700BE9003D3111 /* XMLDictionary.m */; };
+		547D7E2C1E70ED07003D3111 /* sysXMLEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E2B1E70ED07003D3111 /* sysXMLEngine.m */; };
+		547D7E301E724BA7003D3111 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E2F1E724BA7003D3111 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		547D7E351E724BE8003D3111 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 547D7E341E724BE8003D3111 /* libxml2.2.tbd */; };
+		547D7E3A1E72A580003D3111 /* SysJsonAnalyzeEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E391E72A580003D3111 /* SysJsonAnalyzeEngine.m */; };
+		547D7E3B1E73962C003D3111 /* ZDXDirections.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 547D7E361E72A43D003D3111 /* ZDXDirections.geojson */; };
+		547D7E3F1E73B671003D3111 /* SBJsonEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E3E1E73B671003D3111 /* SBJsonEngine.m */; };
+		547D7E5A1E73C406003D3111 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E421E73C406003D3111 /* NSObject+SBJson.m */; };
+		547D7E5B1E73C406003D3111 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E451E73C406003D3111 /* SBJsonParser.m */; };
+		547D7E5C1E73C406003D3111 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E471E73C406003D3111 /* SBJsonStreamParser.m */; };
+		547D7E5D1E73C406003D3111 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E491E73C406003D3111 /* SBJsonStreamParserAccumulator.m */; };
+		547D7E5E1E73C406003D3111 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E4B1E73C406003D3111 /* SBJsonStreamParserAdapter.m */; };
+		547D7E5F1E73C406003D3111 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E4D1E73C406003D3111 /* SBJsonStreamParserState.m */; };
+		547D7E601E73C406003D3111 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E4F1E73C406003D3111 /* SBJsonStreamWriter.m */; };
+		547D7E611E73C406003D3111 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E511E73C406003D3111 /* SBJsonStreamWriterAccumulator.m */; };
+		547D7E621E73C406003D3111 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E531E73C406003D3111 /* SBJsonStreamWriterState.m */; };
+		547D7E631E73C406003D3111 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E551E73C406003D3111 /* SBJsonTokeniser.m */; };
+		547D7E641E73C406003D3111 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E571E73C406003D3111 /* SBJsonUTF8Stream.m */; };
+		547D7E651E73C406003D3111 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D7E591E73C406003D3111 /* SBJsonWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		547D7E051E700B7F003D3111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547D7DE31E700B7D003D3111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547D7DEA1E700B7D003D3111;
+			remoteInfo = "ZDXXML&JsonAnalyzeStudy";
+		};
+		547D7E101E700B7F003D3111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547D7DE31E700B7D003D3111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547D7DEA1E700B7D003D3111;
+			remoteInfo = "ZDXXML&JsonAnalyzeStudy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		547D7DEB1E700B7D003D3111 /* ZDXXML&JsonAnalyzeStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZDXXML&JsonAnalyzeStudy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		547D7DEF1E700B7E003D3111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		547D7DF11E700B7E003D3111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		547D7DF21E700B7E003D3111 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		547D7DF41E700B7E003D3111 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		547D7DF51E700B7E003D3111 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		547D7DF81E700B7E003D3111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547D7DFA1E700B7E003D3111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547D7DFD1E700B7F003D3111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547D7DFF1E700B7F003D3111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547D7E041E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZDXXML&JsonAnalyzeStudyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		547D7E081E700B7F003D3111 /* ZDXXML_JsonAnalyzeStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDXXML_JsonAnalyzeStudyTests.m; sourceTree = "<group>"; };
+		547D7E0A1E700B7F003D3111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547D7E0F1E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZDXXML&JsonAnalyzeStudyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		547D7E131E700B7F003D3111 /* ZDXXML_JsonAnalyzeStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDXXML_JsonAnalyzeStudyUITests.m; sourceTree = "<group>"; };
+		547D7E151E700B7F003D3111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547D7E211E700BE9003D3111 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		547D7E221E700BE9003D3111 /* config2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config2.xml; sourceTree = "<group>"; };
+		547D7E241E700BE9003D3111 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		547D7E251E700BE9003D3111 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		547D7E2A1E70ED07003D3111 /* sysXMLEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysXMLEngine.h; sourceTree = "<group>"; };
+		547D7E2B1E70ED07003D3111 /* sysXMLEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sysXMLEngine.m; sourceTree = "<group>"; };
+		547D7E2E1E724BA7003D3111 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		547D7E2F1E724BA7003D3111 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		547D7E321E724BCF003D3111 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		547D7E341E724BE8003D3111 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		547D7E361E72A43D003D3111 /* ZDXDirections.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = ZDXDirections.geojson; sourceTree = "<group>"; };
+		547D7E381E72A580003D3111 /* SysJsonAnalyzeEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysJsonAnalyzeEngine.h; sourceTree = "<group>"; };
+		547D7E391E72A580003D3111 /* SysJsonAnalyzeEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysJsonAnalyzeEngine.m; sourceTree = "<group>"; };
+		547D7E3D1E73B671003D3111 /* SBJsonEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonEngine.h; sourceTree = "<group>"; };
+		547D7E3E1E73B671003D3111 /* SBJsonEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonEngine.m; sourceTree = "<group>"; };
+		547D7E411E73C406003D3111 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		547D7E421E73C406003D3111 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		547D7E431E73C406003D3111 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		547D7E441E73C406003D3111 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		547D7E451E73C406003D3111 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		547D7E461E73C406003D3111 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		547D7E471E73C406003D3111 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		547D7E481E73C406003D3111 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		547D7E491E73C406003D3111 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		547D7E4A1E73C406003D3111 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		547D7E4B1E73C406003D3111 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		547D7E4C1E73C406003D3111 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		547D7E4D1E73C406003D3111 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		547D7E4E1E73C406003D3111 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		547D7E4F1E73C406003D3111 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		547D7E501E73C406003D3111 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		547D7E511E73C406003D3111 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		547D7E521E73C406003D3111 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		547D7E531E73C406003D3111 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		547D7E541E73C406003D3111 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		547D7E551E73C406003D3111 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		547D7E561E73C406003D3111 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		547D7E571E73C406003D3111 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		547D7E581E73C406003D3111 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		547D7E591E73C406003D3111 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547D7DE81E700B7D003D3111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547D7E351E724BE8003D3111 /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7E011E700B7F003D3111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7E0C1E700B7F003D3111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547D7DE21E700B7D003D3111 = {
+			isa = PBXGroup;
+			children = (
+				547D7DED1E700B7D003D3111 /* ZDXXML&JsonAnalyzeStudy */,
+				547D7E071E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyTests */,
+				547D7E121E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyUITests */,
+				547D7DEC1E700B7D003D3111 /* Products */,
+				547D7E311E724BCE003D3111 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		547D7DEC1E700B7D003D3111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547D7DEB1E700B7D003D3111 /* ZDXXML&JsonAnalyzeStudy.app */,
+				547D7E041E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyTests.xctest */,
+				547D7E0F1E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547D7DED1E700B7D003D3111 /* ZDXXML&JsonAnalyzeStudy */ = {
+			isa = PBXGroup;
+			children = (
+				547D7DF11E700B7E003D3111 /* AppDelegate.h */,
+				547D7DF21E700B7E003D3111 /* AppDelegate.m */,
+				547D7DF41E700B7E003D3111 /* ViewController.h */,
+				547D7DF51E700B7E003D3111 /* ViewController.m */,
+				547D7E211E700BE9003D3111 /* config.xml */,
+				547D7E221E700BE9003D3111 /* config2.xml */,
+				547D7E361E72A43D003D3111 /* ZDXDirections.geojson */,
+				547D7E3C1E73B5FB003D3111 /* SBJsonAnalyze */,
+				547D7E371E72A540003D3111 /* sysJsonAnalyze */,
+				547D7E2D1E724BA7003D3111 /* GDataXML */,
+				547D7E291E700EF5003D3111 /* sysXMLAnalyze */,
+				547D7E231E700BE9003D3111 /* XMLDictionary */,
+				547D7DF71E700B7E003D3111 /* Main.storyboard */,
+				547D7DFA1E700B7E003D3111 /* Assets.xcassets */,
+				547D7DFC1E700B7F003D3111 /* LaunchScreen.storyboard */,
+				547D7DFF1E700B7F003D3111 /* Info.plist */,
+				547D7DEE1E700B7E003D3111 /* Supporting Files */,
+			);
+			path = "ZDXXML&JsonAnalyzeStudy";
+			sourceTree = "<group>";
+		};
+		547D7DEE1E700B7E003D3111 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				547D7DEF1E700B7E003D3111 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		547D7E071E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				547D7E081E700B7F003D3111 /* ZDXXML_JsonAnalyzeStudyTests.m */,
+				547D7E0A1E700B7F003D3111 /* Info.plist */,
+			);
+			path = "ZDXXML&JsonAnalyzeStudyTests";
+			sourceTree = "<group>";
+		};
+		547D7E121E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				547D7E131E700B7F003D3111 /* ZDXXML_JsonAnalyzeStudyUITests.m */,
+				547D7E151E700B7F003D3111 /* Info.plist */,
+			);
+			path = "ZDXXML&JsonAnalyzeStudyUITests";
+			sourceTree = "<group>";
+		};
+		547D7E231E700BE9003D3111 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				547D7E241E700BE9003D3111 /* XMLDictionary.h */,
+				547D7E251E700BE9003D3111 /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		547D7E291E700EF5003D3111 /* sysXMLAnalyze */ = {
+			isa = PBXGroup;
+			children = (
+				547D7E2A1E70ED07003D3111 /* sysXMLEngine.h */,
+				547D7E2B1E70ED07003D3111 /* sysXMLEngine.m */,
+			);
+			path = sysXMLAnalyze;
+			sourceTree = "<group>";
+		};
+		547D7E2D1E724BA7003D3111 /* GDataXML */ = {
+			isa = PBXGroup;
+			children = (
+				547D7E2E1E724BA7003D3111 /* GDataXMLNode.h */,
+				547D7E2F1E724BA7003D3111 /* GDataXMLNode.m */,
+			);
+			path = GDataXML;
+			sourceTree = "<group>";
+		};
+		547D7E311E724BCE003D3111 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				547D7E341E724BE8003D3111 /* libxml2.2.tbd */,
+				547D7E321E724BCF003D3111 /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		547D7E371E72A540003D3111 /* sysJsonAnalyze */ = {
+			isa = PBXGroup;
+			children = (
+				547D7E381E72A580003D3111 /* SysJsonAnalyzeEngine.h */,
+				547D7E391E72A580003D3111 /* SysJsonAnalyzeEngine.m */,
+			);
+			path = sysJsonAnalyze;
+			sourceTree = "<group>";
+		};
+		547D7E3C1E73B5FB003D3111 /* SBJsonAnalyze */ = {
+			isa = PBXGroup;
+			children = (
+				547D7E401E73C406003D3111 /* SBJson */,
+				547D7E3D1E73B671003D3111 /* SBJsonEngine.h */,
+				547D7E3E1E73B671003D3111 /* SBJsonEngine.m */,
+			);
+			path = SBJsonAnalyze;
+			sourceTree = "<group>";
+		};
+		547D7E401E73C406003D3111 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				547D7E411E73C406003D3111 /* NSObject+SBJson.h */,
+				547D7E421E73C406003D3111 /* NSObject+SBJson.m */,
+				547D7E431E73C406003D3111 /* SBJson.h */,
+				547D7E441E73C406003D3111 /* SBJsonParser.h */,
+				547D7E451E73C406003D3111 /* SBJsonParser.m */,
+				547D7E461E73C406003D3111 /* SBJsonStreamParser.h */,
+				547D7E471E73C406003D3111 /* SBJsonStreamParser.m */,
+				547D7E481E73C406003D3111 /* SBJsonStreamParserAccumulator.h */,
+				547D7E491E73C406003D3111 /* SBJsonStreamParserAccumulator.m */,
+				547D7E4A1E73C406003D3111 /* SBJsonStreamParserAdapter.h */,
+				547D7E4B1E73C406003D3111 /* SBJsonStreamParserAdapter.m */,
+				547D7E4C1E73C406003D3111 /* SBJsonStreamParserState.h */,
+				547D7E4D1E73C406003D3111 /* SBJsonStreamParserState.m */,
+				547D7E4E1E73C406003D3111 /* SBJsonStreamWriter.h */,
+				547D7E4F1E73C406003D3111 /* SBJsonStreamWriter.m */,
+				547D7E501E73C406003D3111 /* SBJsonStreamWriterAccumulator.h */,
+				547D7E511E73C406003D3111 /* SBJsonStreamWriterAccumulator.m */,
+				547D7E521E73C406003D3111 /* SBJsonStreamWriterState.h */,
+				547D7E531E73C406003D3111 /* SBJsonStreamWriterState.m */,
+				547D7E541E73C406003D3111 /* SBJsonTokeniser.h */,
+				547D7E551E73C406003D3111 /* SBJsonTokeniser.m */,
+				547D7E561E73C406003D3111 /* SBJsonUTF8Stream.h */,
+				547D7E571E73C406003D3111 /* SBJsonUTF8Stream.m */,
+				547D7E581E73C406003D3111 /* SBJsonWriter.h */,
+				547D7E591E73C406003D3111 /* SBJsonWriter.m */,
+			);
+			name = SBJson;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547D7DEA1E700B7D003D3111 /* ZDXXML&JsonAnalyzeStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547D7E181E700B7F003D3111 /* Build configuration list for PBXNativeTarget "ZDXXML&JsonAnalyzeStudy" */;
+			buildPhases = (
+				547D7DE71E700B7D003D3111 /* Sources */,
+				547D7DE81E700B7D003D3111 /* Frameworks */,
+				547D7DE91E700B7D003D3111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZDXXML&JsonAnalyzeStudy";
+			productName = "ZDXXML&JsonAnalyzeStudy";
+			productReference = 547D7DEB1E700B7D003D3111 /* ZDXXML&JsonAnalyzeStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		547D7E031E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547D7E1B1E700B7F003D3111 /* Build configuration list for PBXNativeTarget "ZDXXML&JsonAnalyzeStudyTests" */;
+			buildPhases = (
+				547D7E001E700B7F003D3111 /* Sources */,
+				547D7E011E700B7F003D3111 /* Frameworks */,
+				547D7E021E700B7F003D3111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547D7E061E700B7F003D3111 /* PBXTargetDependency */,
+			);
+			name = "ZDXXML&JsonAnalyzeStudyTests";
+			productName = "ZDXXML&JsonAnalyzeStudyTests";
+			productReference = 547D7E041E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		547D7E0E1E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547D7E1E1E700B7F003D3111 /* Build configuration list for PBXNativeTarget "ZDXXML&JsonAnalyzeStudyUITests" */;
+			buildPhases = (
+				547D7E0B1E700B7F003D3111 /* Sources */,
+				547D7E0C1E700B7F003D3111 /* Frameworks */,
+				547D7E0D1E700B7F003D3111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547D7E111E700B7F003D3111 /* PBXTargetDependency */,
+			);
+			name = "ZDXXML&JsonAnalyzeStudyUITests";
+			productName = "ZDXXML&JsonAnalyzeStudyUITests";
+			productReference = 547D7E0F1E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547D7DE31E700B7D003D3111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Elbert;
+				TargetAttributes = {
+					547D7DEA1E700B7D003D3111 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6ZKMB3R7AA;
+						ProvisioningStyle = Automatic;
+					};
+					547D7E031E700B7F003D3111 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 547D7DEA1E700B7D003D3111;
+					};
+					547D7E0E1E700B7F003D3111 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 547D7DEA1E700B7D003D3111;
+					};
+				};
+			};
+			buildConfigurationList = 547D7DE61E700B7D003D3111 /* Build configuration list for PBXProject "ZDXXML&JsonAnalyzeStudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547D7DE21E700B7D003D3111;
+			productRefGroup = 547D7DEC1E700B7D003D3111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547D7DEA1E700B7D003D3111 /* ZDXXML&JsonAnalyzeStudy */,
+				547D7E031E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyTests */,
+				547D7E0E1E700B7F003D3111 /* ZDXXML&JsonAnalyzeStudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547D7DE91E700B7D003D3111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547D7E3B1E73962C003D3111 /* ZDXDirections.geojson in Resources */,
+				547D7DFE1E700B7F003D3111 /* LaunchScreen.storyboard in Resources */,
+				547D7DFB1E700B7E003D3111 /* Assets.xcassets in Resources */,
+				547D7DF91E700B7E003D3111 /* Main.storyboard in Resources */,
+				547D7E261E700BE9003D3111 /* config.xml in Resources */,
+				547D7E271E700BE9003D3111 /* config2.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7E021E700B7F003D3111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7E0D1E700B7F003D3111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547D7DE71E700B7D003D3111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547D7E621E73C406003D3111 /* SBJsonStreamWriterState.m in Sources */,
+				547D7E651E73C406003D3111 /* SBJsonWriter.m in Sources */,
+				547D7DF61E700B7E003D3111 /* ViewController.m in Sources */,
+				547D7E2C1E70ED07003D3111 /* sysXMLEngine.m in Sources */,
+				547D7E611E73C406003D3111 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				547D7E5D1E73C406003D3111 /* SBJsonStreamParserAccumulator.m in Sources */,
+				547D7E281E700BE9003D3111 /* XMLDictionary.m in Sources */,
+				547D7E5B1E73C406003D3111 /* SBJsonParser.m in Sources */,
+				547D7DF31E700B7E003D3111 /* AppDelegate.m in Sources */,
+				547D7DF01E700B7E003D3111 /* main.m in Sources */,
+				547D7E301E724BA7003D3111 /* GDataXMLNode.m in Sources */,
+				547D7E3F1E73B671003D3111 /* SBJsonEngine.m in Sources */,
+				547D7E641E73C406003D3111 /* SBJsonUTF8Stream.m in Sources */,
+				547D7E631E73C406003D3111 /* SBJsonTokeniser.m in Sources */,
+				547D7E5F1E73C406003D3111 /* SBJsonStreamParserState.m in Sources */,
+				547D7E5E1E73C406003D3111 /* SBJsonStreamParserAdapter.m in Sources */,
+				547D7E5A1E73C406003D3111 /* NSObject+SBJson.m in Sources */,
+				547D7E3A1E72A580003D3111 /* SysJsonAnalyzeEngine.m in Sources */,
+				547D7E601E73C406003D3111 /* SBJsonStreamWriter.m in Sources */,
+				547D7E5C1E73C406003D3111 /* SBJsonStreamParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7E001E700B7F003D3111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547D7E091E700B7F003D3111 /* ZDXXML_JsonAnalyzeStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D7E0B1E700B7F003D3111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547D7E141E700B7F003D3111 /* ZDXXML_JsonAnalyzeStudyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		547D7E061E700B7F003D3111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547D7DEA1E700B7D003D3111 /* ZDXXML&JsonAnalyzeStudy */;
+			targetProxy = 547D7E051E700B7F003D3111 /* PBXContainerItemProxy */;
+		};
+		547D7E111E700B7F003D3111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547D7DEA1E700B7D003D3111 /* ZDXXML&JsonAnalyzeStudy */;
+			targetProxy = 547D7E101E700B7F003D3111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		547D7DF71E700B7E003D3111 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547D7DF81E700B7E003D3111 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547D7DFC1E700B7F003D3111 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547D7DFD1E700B7F003D3111 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547D7E161E700B7F003D3111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547D7E171E700B7F003D3111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547D7E191E700B7F003D3111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6ZKMB3R7AA;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "ZDXXML&JsonAnalyzeStudy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.ZDXXML-JsonAnalyzeStudy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		547D7E1A1E700B7F003D3111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6ZKMB3R7AA;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "ZDXXML&JsonAnalyzeStudy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.ZDXXML-JsonAnalyzeStudy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		547D7E1C1E700B7F003D3111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZDXXML&JsonAnalyzeStudyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.ZDXXML-JsonAnalyzeStudyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDXXML&JsonAnalyzeStudy.app/ZDXXML&JsonAnalyzeStudy";
+			};
+			name = Debug;
+		};
+		547D7E1D1E700B7F003D3111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZDXXML&JsonAnalyzeStudyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.ZDXXML-JsonAnalyzeStudyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDXXML&JsonAnalyzeStudy.app/ZDXXML&JsonAnalyzeStudy";
+			};
+			name = Release;
+		};
+		547D7E1F1E700B7F003D3111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZDXXML&JsonAnalyzeStudyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.ZDXXML-JsonAnalyzeStudyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZDXXML&JsonAnalyzeStudy";
+			};
+			name = Debug;
+		};
+		547D7E201E700B7F003D3111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZDXXML&JsonAnalyzeStudyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.ZDXXML-JsonAnalyzeStudyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZDXXML&JsonAnalyzeStudy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547D7DE61E700B7D003D3111 /* Build configuration list for PBXProject "ZDXXML&JsonAnalyzeStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547D7E161E700B7F003D3111 /* Debug */,
+				547D7E171E700B7F003D3111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547D7E181E700B7F003D3111 /* Build configuration list for PBXNativeTarget "ZDXXML&JsonAnalyzeStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547D7E191E700B7F003D3111 /* Debug */,
+				547D7E1A1E700B7F003D3111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		547D7E1B1E700B7F003D3111 /* Build configuration list for PBXNativeTarget "ZDXXML&JsonAnalyzeStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547D7E1C1E700B7F003D3111 /* Debug */,
+				547D7E1D1E700B7F003D3111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		547D7E1E1E700B7F003D3111 /* Build configuration list for PBXNativeTarget "ZDXXML&JsonAnalyzeStudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547D7E1F1E700B7F003D3111 /* Debug */,
+				547D7E201E700B7F003D3111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547D7DE31E700B7D003D3111 /* Project object */;
+}
